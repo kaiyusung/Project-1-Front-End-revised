@@ -6,9 +6,9 @@ body {
 
 
 .nav {
-  	width: 100%;
-  	margin-left: auto;
-  	margin-right: auto;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -19,6 +19,8 @@ body {
 
 .logo {
 	padding-top: 1.1em;
+	min-width: 7em;
+	min-height: 7em;
 	max-width: 15em;
 	max-height: 15em;
 
@@ -29,9 +31,9 @@ body {
 }
 
 hr {
-    border: none;
-    height: 1px;
-    background-color: #bcbbbb;
+	border: none;
+	height: 1px;
+	background-color: #bcbbbb;
 }
 
 .about {
@@ -42,8 +44,8 @@ hr {
 .background_pic {
 	max-width: 400px;
 	max-height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .feature {
@@ -73,8 +75,8 @@ hr {
 	}
 
 	hr {
-    	height: 3px;
-    	position: relative;
+		height: 3px;
+		position: relative;
 	}
 
 	.about {
@@ -102,7 +104,7 @@ hr {
 	}
 
 	hr {
-    	height: 5px;
+		height: 5px;
 	}
 
 	.about {
@@ -130,9 +132,9 @@ hr {
 	}
 
 	hr {
-    	height: 7px;
-    	position: relative;
-    	left: -25px;
+		height: 7px;
+		position: relative;
+		left: -25px;
 	}
 
 	.about {
@@ -152,7 +154,7 @@ hr {
 
 @media screen and (min-width: 1100px) {
 	hr {
-    	position: relative;
-    	left: -50px;
+		position: relative;
+		left: -50px;
 	}
 }
